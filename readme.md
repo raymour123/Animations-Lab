@@ -11,7 +11,7 @@ creator:
 
 ## Introduction
 
-> ***Note:*** _This can should done independently._
+> ***Note:*** _This lab should done independently._
 
 In this lab, you will be building an animated wish list using your knowledge of view and layout animation. The app should have an edit text where a user
 can type in his/her wish. After clicking the button "add a wish", the wish should get animated and then be added to the wish list on top
