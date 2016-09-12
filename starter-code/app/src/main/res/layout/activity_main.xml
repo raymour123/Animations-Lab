@@ -4,11 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:padding="8dp"
     tools:context="generalassembly.yuliyakaleda.startercode.MainActivity">
 
     <!-- TODO: add edit text, button, text view and a view group-->
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Type to the Genie here!"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext"
+        android:text="Rub the Lamp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        />
+
+    <TextView
+        android:id="@+id/textview"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Your Wish is My Command!"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"/>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp">
+
+    </ListView>
+
 </RelativeLayout>
